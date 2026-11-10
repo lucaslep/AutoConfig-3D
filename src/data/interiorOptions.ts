@@ -1,0 +1,66 @@
+import { InteriorOption } from '../types/configurator';
+
+export const INTERIOR_OPTIONS: InteriorOption[] = [
+  {
+    id: 'int-black-leather',
+    name: 'Couro Preto',
+    description: 'Couro Nappa preto integral com acabamento em alumínio escovado e costura grafite.',
+    primaryColor: '#181A20',
+    secondaryColor: '#262932',
+    stitchingColor: '#94A3B8',
+    roughness: 0.6,
+    price: 0,
+  },
+  {
+    id: 'int-beige-luxury',
+    name: 'Couro Bege',
+    description: 'Couro Savana Bege com painel inferior contrastante e toque aveludado.',
+    primaryColor: '#D6B996',
+    secondaryColor: '#3E362E',
+    stitchingColor: '#F5EBE0',
+    roughness: 0.55,
+    price: 12400,
+  },
+  {
+    id: 'int-black-red-sport',
+    name: 'Preto com Vermelho',
+    description: 'Bancos concha em Alcântara preta com faixas laterais e costuras em Vermelho Carmesim.',
+    primaryColor: '#15171E',
+    secondaryColor: '#B91C1C',
+    stitchingColor: '#EF4444',
+    roughness: 0.68,
+    price: 18200,
+  },
+  {
+    id: 'int-premium-carbon',
+    name: 'Interior Premium Cognac',
+    description: 'Couro Cognac Imperial combinado com inserções de fibra de carbono exposta.',
+    primaryColor: '#8B4513',
+    secondaryColor: '#1A1C23',
+    stitchingColor: '#FBBF24',
+    roughness: 0.48,
+    price: 24500,
+  },
+  {
+    id: 'int-shark-blue-alcantara',
+    name: 'Alcântara Cinza & Azul GT',
+    description: 'Revestimento de pista em Alcântara cinza chumbo com faixas e marcador 12h em Azul Riviera.',
+    primaryColor: '#272B36',
+    secondaryColor: '#0284C7',
+    stitchingColor: '#38BDF8',
+    roughness: 0.72,
+    price: 21000,
+  },
+  {
+    id: 'int-arctic-white',
+    name: 'Branco Gelo Futurista',
+    description: 'Couro vegano Branco Ártico minimalista com console escuro e costuras prateadas.',
+    primaryColor: '#E2E8F0',
+    secondaryColor: '#1E293B',
+    stitchingColor: '#38BDF8',
+    roughness: 0.5,
+    price: 19800,
+  },
+];
+
+export const ALL_INTERIOR_IDS = INTERIOR_OPTIONS.map((i) => i.id);
